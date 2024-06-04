@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseMigrationSettings" liquibaseFileType="SQL">
+    <database-infos>
+      <database-info>
+        <option name="enabled" value="true" />
+        <dbms-id>postgres</dbms-id>
+      </database-info>
+    </database-infos>
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default">
+        <entities>
+          <entity value="model.Employee" />
+          <entity value="model.Task" />
+          <entity value="model.Supply" />
+          <entity value="model.Project" />
+          <entity value="model.Sponsor" />
+          <entity value="model.IndividualSponsor" />
+          <entity value="model.OrganizationSponsor" />
+          <entity value="model.Department" />
+          <entity value="model.Sponsorship" />
+          <entity value="model.BaseEntity" />
+        </entities>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
